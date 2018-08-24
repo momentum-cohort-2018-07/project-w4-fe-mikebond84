@@ -5,22 +5,15 @@ import request from 'superagent'
 
 request.get('https://itunes.apple.com/search?term=""&entity=musicTrack')
   .then(response => {
-    let results = response.body.results
+    let results = response.body
     console.log (response)
   })
 
 function displayResults (results) {
-  let output = `
-    <form action ="" method ="get" class ="form">
-      <div class ="form">
-        <label for="search">Search</label>
-        <input type="text" id="name"
-               placeholder="Search any song"
-               size="50">
-      </div>
-      <div>
-        <button>Submit</button>
-      </div>
-    </form>
-    `
+  let output = []
+  var array = output
 }
+//   array.forEach(function() {
+//   document.getElementById("search").innerHTML = array
+//   console.log(results)
+// })
