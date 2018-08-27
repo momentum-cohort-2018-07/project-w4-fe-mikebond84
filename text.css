@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#header {
+  width:100%;
+  background:url("https://dikfqwwe31irs.cloudfront.net/assets/venues/the-fox-theatre/_1600xAUTO_scale_center-center/Atlanta-Fox.jpg?mtime=20170213135856")no-repeat top center;
+ }
+
+.form { 
+  width:500px;
+  margin:20px;   
+}
+
+#search-form {
+  height:10px;
+  margin:0 auto;
+  margin-bottom: 10px;
+  vertical-align:top;
+}
+
+#submit {
+  height:40px;
+  margin:0 auto;
+  vertical-align:top;
+}
